@@ -1,0 +1,18 @@
+DEBUG:root:Set - test 1: complete
+DEBUG:root:Read - test 2: None
+DEBUG:root:Read - test 3: None
+DEBUG:root:Set - test 3: complete
+DEBUG:root:Set - test 4: complete
+DEBUG:root:Read - test 4: complete
+DEBUG:root:Read - test 5: None
+DEBUG:root:Read - test 5: None
+DEBUG:root:Read - test 5: None
+DEBUG:root:Read - test 5: None
+DEBUG:root:Read - test 5: None
+DEBUG:root:Read - test 6: None
+DEBUG:root:Read - test 6: None
+DEBUG:root:Read - test 6: None
+DEBUG:root:Read - test 6: None
+DEBUG:root:Read - test 6: None
+DEBUG:root:Set - test 6: complete 1
+DEBUG:root:Set - test 6: complete 2
