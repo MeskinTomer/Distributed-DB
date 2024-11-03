@@ -3,7 +3,6 @@ The Python Class that implements the testing of the database using Threading
 """
 
 import threading
-import multiprocessing
 from DataBaseSync import DataBaseSync
 
 
@@ -58,9 +57,11 @@ class ThreadingTest:
             self.threads.append(thread)
 
         thread = threading.Thread(target=self.data_base.set_value, args=('test 6', 'complete 1'))
+        thread.start()
         self.threads.append(thread)
 
         thread = threading.Thread(target=self.data_base.set_value, args=('test 6', 'complete 2'))
+        thread.start()
         self.threads.append(thread)
 
         for thread in self.threads:
@@ -77,4 +78,4 @@ class ThreadingTest:
 
 if __name__ == '__main__':
     test = ThreadingTest()
-    test.test_4()
+    test.test_all()
