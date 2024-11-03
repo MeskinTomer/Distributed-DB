@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9760346-f88f-43ab-b958-430da06d51ed" name="Changes" comment="DataBase Synchronized Class">
+    <list default="true" id="f9760346-f88f-43ab-b958-430da06d51ed" name="Changes" comment="Repair, Improvement, and Testing">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThreadingTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBaseDict.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataBaseDict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBaseFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataBaseFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataBaseSync.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataBaseSync.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +36,37 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.ThreadingTest.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.ThreadingTest">
+    <configuration name="ThreadingTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Distributed-DB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThreadingTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Distributed-DB" />
       <option name="ENV_FILES" value="" />
@@ -66,6 +89,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ThreadingTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -107,13 +135,22 @@
       <option name="project" value="LOCAL" />
       <updated>1730577444555</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Repair, Improvement, and Testing">
+      <option name="closed" value="true" />
+      <created>1730636147883</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730636147883</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DataBase Dictionary Class" />
     <MESSAGE value="DataBase File Class" />
     <MESSAGE value="DataBase Synchronized Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataBase Synchronized Class" />
+    <MESSAGE value="Repair, Improvement, and Testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Repair, Improvement, and Testing" />
   </component>
 </project>

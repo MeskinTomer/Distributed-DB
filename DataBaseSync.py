@@ -11,13 +11,15 @@ MAX_READERS_COUNT = 10
 
 
 class DataBaseSync(DataBaseFile):
-    def __init__(self, dictionary, mode):
+    def __init__(self, dictionary=None, mode='Threading'):
         super().__init__(dictionary)
+        if dictionary is None:
+            dictionary = {}
         if mode == 'Threading':
             self.lock = threading.Lock()
             self.semaphore = threading.Semaphore(MAX_READERS_COUNT)
         elif mode == 'Multiprocessing':
-            self.lock = multiprocessing.Lock
+            self.lock = multiprocessing.Lock()
             self.semaphore = multiprocessing.Semaphore(MAX_READERS_COUNT)
 
     def set_value(self, key, val):
