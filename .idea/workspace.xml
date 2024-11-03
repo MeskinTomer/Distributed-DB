@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9760346-f88f-43ab-b958-430da06d51ed" name="Changes" comment="DataBase File Class">
-      <change afterPath="$PROJECT_DIR$/DataBaseSync.py" afterDir="false" />
+    <list default="true" id="f9760346-f88f-43ab-b958-430da06d51ed" name="Changes" comment="DataBase Synchronized Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBaseDict.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataBaseDict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBaseFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataBaseFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBaseSync.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataBaseSync.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2oIzrpkJZo8bImyAIC5NM7cupBo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -95,12 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730574874633</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DataBase Synchronized Class">
+      <option name="closed" value="true" />
+      <created>1730577444555</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730577444555</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DataBase Dictionary Class" />
     <MESSAGE value="DataBase File Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataBase File Class" />
+    <MESSAGE value="DataBase Synchronized Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataBase Synchronized Class" />
   </component>
 </project>

@@ -4,8 +4,8 @@ The Python Class that implements the base database
 
 
 class DataBaseDict:
-    def __init__(self):
-        self.dict = {}
+    def __init__(self, dictionary):
+        self.dict = dictionary
 
     def set_value(self, key, val):
         self.dict[key] = val
