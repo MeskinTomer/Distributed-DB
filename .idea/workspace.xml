@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9760346-f88f-43ab-b958-430da06d51ed" name="Changes" comment="Threading Test Class">
-      <change afterPath="$PROJECT_DIR$/MultiProcessingTest.py" afterDir="false" />
+    <list default="true" id="f9760346-f88f-43ab-b958-430da06d51ed" name="Changes" comment="MultiProcessing Test Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBaseDict.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataBaseDict.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataBaseFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataBaseFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBaseSync.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataBaseSync.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiProcessingTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultiProcessingTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ThreadingTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/ThreadingTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +37,87 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.MultiProcessingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ThreadingTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.DataBaseDict.executor": "Run",
+    "Python.DataBaseFile.executor": "Run",
+    "Python.DataBaseSync.executor": "Run",
+    "Python.MultiProcessingTest.executor": "Run",
+    "Python.ThreadingTest.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
-  <component name="RunManager" selected="Python.MultiProcessingTest">
+}]]></component>
+  <component name="RunManager" selected="Python.DataBaseSync">
+    <configuration name="DataBaseDict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Distributed-DB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataBaseDict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DataBaseFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Distributed-DB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataBaseFile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DataBaseSync" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Distributed-DB" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataBaseSync.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MultiProcessingTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Distributed-DB" />
       <option name="ENV_FILES" value="" />
@@ -114,8 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MultiProcessingTest" />
+        <item itemvalue="Python.DataBaseSync" />
         <item itemvalue="Python.ThreadingTest" />
+        <item itemvalue="Python.DataBaseFile" />
+        <item itemvalue="Python.DataBaseDict" />
+        <item itemvalue="Python.MultiProcessingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730666086006</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="MultiProcessing Test Class">
+      <option name="closed" value="true" />
+      <created>1730667542715</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730667542715</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,6 +267,7 @@
     <MESSAGE value="DataBase Synchronized Class" />
     <MESSAGE value="Repair, Improvement, and Testing" />
     <MESSAGE value="Threading Test Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Threading Test Class" />
+    <MESSAGE value="MultiProcessing Test Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="MultiProcessing Test Class" />
   </component>
 </project>

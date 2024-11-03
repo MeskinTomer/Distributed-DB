@@ -6,19 +6,26 @@ import time
 from DataBaseFile import DataBaseFile
 import threading
 import multiprocessing
+import logging
 
 MAX_READERS_COUNT = 10
+
+logging.basicConfig(filename='DataBase.log', level=logging.DEBUG)
 
 
 class DataBaseSync(DataBaseFile):
     def __init__(self, dictionary=None, mode='Threading'):
         super().__init__(dictionary)
+
         if dictionary is None:
             dictionary = {}
+
+        # Threading Mode
         if mode == 'Threading':
             self.lock = threading.Lock()
             self.semaphore = threading.Semaphore(MAX_READERS_COUNT)
-        elif mode == 'Multiprocessing':
+        # MultiProcessing Mode
+        elif mode == 'MultiProcessing':
             self.lock = multiprocessing.Lock()
             self.semaphore = multiprocessing.Semaphore(MAX_READERS_COUNT)
 
@@ -32,7 +39,7 @@ class DataBaseSync(DataBaseFile):
                 permits_acquired += 1
 
             super().set_value(key, val)
-            print(f'Set - {key}: {val}')
+            logging.debug(f'Set - {key}: {val}')
             time.sleep(3)
 
         # Release all permits
@@ -41,9 +48,10 @@ class DataBaseSync(DataBaseFile):
             permits_acquired -= 1
 
     def get_value(self, key):
+        # Acquire Semaphore
         with self.semaphore:
             value = super().get_value(key)
-            print(f'Read - {key}: {value}')
+            logging.debug(f'Read - {key}: {value}')
             time.sleep(3)
         return value
 
@@ -57,7 +65,7 @@ class DataBaseSync(DataBaseFile):
                 permits_acquired += 1
 
             value = super().delete_value(key)
-            print(f'Deleted - {key}: {value}')
+            logging.debug(f'Deleted - {key}: {value}')
             time.sleep(3)
 
         # Release all permits
